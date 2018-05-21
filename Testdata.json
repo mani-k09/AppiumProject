@@ -1,0 +1,22 @@
+{
+  "TC002_ValidUserLoginTest":{
+    "userName":"logintomani@gmail.com",
+    "password":"komoot@123"
+  },
+  "TC004_UserProfileVerificationTest":{
+  "userName":"logintomani@gmail.com",
+    "password":"komoot@123",
+    "profileName":"Mani",
+    "planTour":"Plan Tour",
+    "totalFollowers":0,
+    "totalFollowings":0
+  },
+  "TC003_HomepageUITest":{
+  "userName":"logintomani@gmail.com",
+    "password":"komoot@123"
+},
+"TC005_SeacrhTourAndLogoutTest":{
+   "userName":"logintomani@gmail.com",
+    "password":"komoot@123"
+}
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Smoke Test Suite]">
+  <test name="High level Test(failed)">
+    <classes>
+      <class name="com.komoot.testcases.TC005_SeacrhTourAndLogoutTest">
+        <methods>
+          <include name="tearDown_ExtentReport"/>
+          <include name="initClient_ExtentReport"/>
+          <include name="postTestRun"/>
+          <include name="beforeClass_ExtentReport"/>
+          <include name="verifySearchTourTest"/>
+        </methods>
+      </class> <!-- com.komoot.testcases.TC005_SeacrhTourAndLogoutTest -->
+    </classes>
+  </test> <!-- High level Test(failed) -->
+</suite> <!-- Failed suite [Smoke Test Suite] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke Test Suite">
+
+
+<test name="High level Test">
+<classes>
+<class name="com.komoot.testcases.TC001_WelcomePageUITest"></class>
+<class name="com.komoot.testcases.TC002_ValidUserLoginTest"></class>
+<class name="com.komoot.testcases.TC003_HomepageUITest"></class>
+<class name="com.komoot.testcases.TC004_UserProfileVerificationTest"></class>
+<class name="com.komoot.testcases.TC005_SeacrhTourAndLogoutTest"></class>
+</classes>
+</test>
+</suite>

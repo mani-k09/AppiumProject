@@ -1,0 +1,64 @@
+package:de.komoot.android
+
+
+
+1. Test Scenario --> check UI of the launch screen is as per the design
+
+Test Steps:
+	i.   Verify komoot logo & Caption exist.
+	ii.  Verify signup options,(facebook & gmail buttons).
+	iii. Veirfy terms of service link exist.
+	iv.  Verify Existing user login options(have an account & Login) 
+	v.   Verify clickOnTermsOfServiceLink redirecting to new screen
+	vi.  Tap on back button and redirection to home screen 
+	vii  Tap on facebook which redirected to facebook login page
+	viii. Close the facebook web page & check komoot home page loaded 
+	ix.  Tap on email button and check the continue with
+	x.   Tap back key and check Sign up screen is loaded home screen loaded   
+
+2. Test Scenario --> Verify user able to loginto the app
+
+Test Steps:
+
+	i.  verify user name field is exit
+	ii.  verify passwoed firled is exist
+    iii. verify login button is exist
+    iv.   Verify forgot password link is available
+    v.    Enter email addree
+	vi.   Enter password
+	vii.  Tap login button and & it should be success
+	viii. Verify after successful login user redirected to home screen
+	
+3. Test Scenario --> Home page UI elements are displayed as per the design 
+
+	i.   Verify Discover Menu displayed
+	ii.  Verify Map Menu displayed
+	iii. Verify plan Menu displayed
+	iv.  Verify Profile Menu displayed
+	v.   Verify Region Menu displayed
+	vi.  Verify Region Menu displayed
+	vii. Check profile icon redirecting to account screen
+	vii. Check plan icon redirecting to Trip planning screen	
+	vii. Check Discover icon redirecting to Discover activities screen
+
+4. Test Scenario -->  check user profile page has valid user details 
+	i.   Navigate to home screen & tap on profile icon
+	ii.  verify the profile Name displayed
+	iii. verify the number of followers displayed
+	iv.  verify the number of followings displayed
+    v.	 Verify the follwers & follwing text displayed
+	vi.   Verify the No tour button text displayed   
+    vii.  Verify Find friend link redirecting to next page
+	
+5. Test Scenario -->  check user able to find new trips around the disired location using search Options
+   i.	Navigate to home screen & tap on Plan icon
+   ii.  verify Plan & activties are loaded
+   iii. Enter start location & select the location from the results
+   iv.  Enter the Destination location & select the location from the results
+   v.   Search the availble trips in the entered locations
+   vi.  Verify the search results are found
+   
+   
+   
+		
+   
