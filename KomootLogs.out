@@ -222,3 +222,60 @@
 2018-05-21 11:59:02 INFO  TestBase:125 - Appium Driver has been successfully closed
 2018-05-21 11:59:02 INFO  TestBase:87 - Follwing Test case execution was completed :TC005_SeacrhTourAndLogoutTest
 2018-05-21 11:59:02 INFO  TestBase:189 - Extend Report has been closed
+2018-05-21 12:15:17 INFO  TestBase:119 - Appium Capabilities setUp has been completed for the class :TC001_WelcomePageUITest
+2018-05-21 12:15:17 INFO  TestBase:173 - Extend Report configuration was successfull
+2018-05-21 12:15:17 INFO  TC001_WelcomePageUITest:16 - ###########Komoot Application has been Launched###########
+2018-05-21 12:15:18 INFO  TC001_WelcomePageUITest:28 - ###########Komoot Application Launch Page has been Verified###########
+2018-05-21 12:15:20 INFO  TC001_WelcomePageUITest:34 - ###########Terms of service Navigation has been verified###########
+2018-05-21 12:15:24 INFO  TC001_WelcomePageUITest:41 - ###########Login Using email option has been verified###########
+2018-05-21 12:15:27 INFO  TestBase:125 - Appium Driver has been successfully closed
+2018-05-21 12:15:27 INFO  TestBase:87 - Follwing Test case execution was completed :TC001_WelcomePageUITest
+2018-05-21 12:15:27 INFO  TestBase:189 - Extend Report has been closed
+2018-05-21 12:15:43 INFO  TestBase:119 - Appium Capabilities setUp has been completed for the class :TC002_ValidUserLoginTest
+2018-05-21 12:15:43 INFO  TestBase:173 - Extend Report configuration was successfull
+2018-05-21 12:15:43 INFO  TC002_ValidUserLoginTest:21 - ###########Komoot Application has been Launched###########
+2018-05-21 12:15:49 INFO  TestBase:198 - Following data was retrieved from the test data file :logintomani@gmail.com
+2018-05-21 12:15:49 INFO  TestBase:198 - Following data was retrieved from the test data file :komoot@123
+2018-05-21 12:16:07 INFO  TC002_ValidUserLoginTest:46 - ###########Login was successful using Valid user credentioals###########
+2018-05-21 12:16:10 INFO  TestBase:125 - Appium Driver has been successfully closed
+2018-05-21 12:16:10 INFO  TestBase:87 - Follwing Test case execution was completed :TC002_ValidUserLoginTest
+2018-05-21 12:16:10 INFO  TestBase:189 - Extend Report has been closed
+2018-05-21 12:16:26 INFO  TestBase:119 - Appium Capabilities setUp has been completed for the class :TC003_HomepageUITest
+2018-05-21 12:16:26 INFO  TestBase:173 - Extend Report configuration was successfull
+2018-05-21 12:16:31 INFO  TestBase:198 - Following data was retrieved from the test data file :logintomani@gmail.com
+2018-05-21 12:16:31 INFO  TestBase:198 - Following data was retrieved from the test data file :komoot@123
+2018-05-21 12:16:48 INFO  TC003_HomepageUITest:35 - ###########Login was successful using Valid user credentioals###########
+2018-05-21 12:16:49 INFO  TC003_HomepageUITest:43 - ###########Home Page UI validation was completed###########
+2018-05-21 12:16:51 INFO  TC003_HomepageUITest:48 - ###########Home Page - user profile icon validated###########
+2018-05-21 12:16:53 INFO  TC003_HomepageUITest:53 - ###########Home Page - Plan Menu Verified###########
+2018-05-21 12:16:55 INFO  TC003_HomepageUITest:59 - ###########Home Page - Discover Menu Verification successful###########
+2018-05-21 12:16:58 INFO  TestBase:125 - Appium Driver has been successfully closed
+2018-05-21 12:16:58 INFO  TestBase:87 - Follwing Test case execution was completed :TC003_HomepageUITest
+2018-05-21 12:16:58 INFO  TestBase:189 - Extend Report has been closed
+2018-05-21 12:17:15 INFO  TestBase:119 - Appium Capabilities setUp has been completed for the class :TC004_UserProfileVerificationTest
+2018-05-21 12:17:15 INFO  TestBase:173 - Extend Report configuration was successfull
+2018-05-21 12:17:18 INFO  TestBase:198 - Following data was retrieved from the test data file :logintomani@gmail.com
+2018-05-21 12:17:18 INFO  TestBase:198 - Following data was retrieved from the test data file :komoot@123
+2018-05-21 12:17:37 INFO  TC004_UserProfileVerificationTest:37 - ###########Login was successful###########
+2018-05-21 12:17:39 INFO  TC004_UserProfileVerificationTest:42 - ###########Profile page loaded successfuly###########
+2018-05-21 12:17:39 INFO  TestBase:198 - Following data was retrieved from the test data file :Mani
+2018-05-21 12:17:39 INFO  TestBase:198 - Following data was retrieved from the test data file :Plan Tour
+2018-05-21 12:17:40 INFO  TestBase:198 - Following data was retrieved from the test data file :0
+2018-05-21 12:17:40 INFO  TestBase:198 - Following data was retrieved from the test data file :0
+2018-05-21 12:17:40 INFO  TC004_UserProfileVerificationTest:54 - ###########Profile page UI verified successfuly###########
+2018-05-21 12:17:42 INFO  TC004_UserProfileVerificationTest:59 - ###########Find friends page loaded successfuly###########
+2018-05-21 12:17:45 INFO  TestBase:125 - Appium Driver has been successfully closed
+2018-05-21 12:17:45 INFO  TestBase:87 - Follwing Test case execution was completed :TC004_UserProfileVerificationTest
+2018-05-21 12:17:45 INFO  TestBase:189 - Extend Report has been closed
+2018-05-21 12:18:00 INFO  TestBase:119 - Appium Capabilities setUp has been completed for the class :TC005_SeacrhTourAndLogoutTest
+2018-05-21 12:18:00 INFO  TestBase:173 - Extend Report configuration was successfull
+2018-05-21 12:18:03 INFO  TestBase:198 - Following data was retrieved from the test data file :logintomani@gmail.com
+2018-05-21 12:18:03 INFO  TestBase:198 - Following data was retrieved from the test data file :komoot@123
+2018-05-21 12:18:21 INFO  TC004_UserProfileVerificationTest:34 - ###########Login was successful using Valid user credentioals###########
+2018-05-21 12:18:23 INFO  TC004_UserProfileVerificationTest:38 - ###########Komoot - Plan page loaded successfully###########
+2018-05-21 12:18:45 INFO  TC004_UserProfileVerificationTest:42 - ###########A Route was found in the search results###########
+2018-05-21 12:18:47 INFO  TC004_UserProfileVerificationTest:50 - ###########Profile Page loaded successfully###########
+2018-05-21 12:18:50 INFO  TC004_UserProfileVerificationTest:56 - ###########Profile Setttings Page loaded successfully###########
+2018-05-21 12:18:55 INFO  TestBase:125 - Appium Driver has been successfully closed
+2018-05-21 12:18:55 INFO  TestBase:87 - Follwing Test case execution was completed :TC005_SeacrhTourAndLogoutTest
+2018-05-21 12:18:55 INFO  TestBase:189 - Extend Report has been closed

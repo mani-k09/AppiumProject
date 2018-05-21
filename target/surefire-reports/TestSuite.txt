@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 182.731 sec <<< FAILURE! - in TestSuite
-verifySearchTourTest(com.komoot.testcases.TC005_SeacrhTourAndLogoutTest)  Time elapsed: 3.255 sec  <<< FAILURE!
-java.lang.NullPointerException: null
-	at com.komoot.TestBase.TestBase.getTestData(TestBase.java:196)
-	at com.komoot.testcases.TC005_SeacrhTourAndLogoutTest.verifySearchTourTest(TC005_SeacrhTourAndLogoutTest.java:30)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 236.867 sec - in TestSuite

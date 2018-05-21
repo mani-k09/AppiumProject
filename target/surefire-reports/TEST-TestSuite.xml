@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="84.472" tests="5" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="139.397" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:/users/KailasamM/VodafoneMTS/KomootSmokeTest"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/users/KailasamM/VodafoneMTS/mygit/AppiumProject"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\users\KailasamM\VodafoneMTS\KomootSmokeTest"/>
+    <property name="user.dir" value="C:\users\KailasamM\VodafoneMTS\mygit\AppiumProject"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
@@ -60,20 +60,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="verifylaunchpageElements" classname="com.komoot.testcases.TC001_WelcomePageUITest" time="8.19"/>
-  <testcase name="verifyValidUserLogInAndScreenElements" classname="com.komoot.testcases.TC002_ValidUserLoginTest" time="19.904"/>
-  <testcase name="verifyHomepageUITest" classname="com.komoot.testcases.TC003_HomepageUITest" time="27.512"/>
-  <testcase name="verifyUserProfileVerification" classname="com.komoot.testcases.TC004_UserProfileVerificationTest" time="25.611"/>
-  <testcase name="verifySearchTourTest" classname="com.komoot.testcases.TC005_SeacrhTourAndLogoutTest" time="3.255">
-    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at com.komoot.TestBase.TestBase.getTestData(TestBase.java:196)
-	at com.komoot.testcases.TC005_SeacrhTourAndLogoutTest.verifySearchTourTest(TC005_SeacrhTourAndLogoutTest.java:30)
-</failure>
-    <system-out><![CDATA[2018-05-21 11:58:40 INFO  TestBase:125 - Appium Driver has been successfully closed
-2018-05-21 11:58:40 INFO  TestBase:87 - Follwing Test case execution was completed :TC004_UserProfileVerificationTest
-2018-05-21 11:58:40 INFO  TestBase:189 - Extend Report has been closed
-2018-05-21 11:58:56 INFO  TestBase:119 - Appium Capabilities setUp has been completed for the class :TC005_SeacrhTourAndLogoutTest
-2018-05-21 11:58:56 INFO  TestBase:173 - Extend Report configuration was successfull
-]]></system-out>
-  </testcase>
+  <testcase name="verifylaunchpageElements" classname="com.komoot.testcases.TC001_WelcomePageUITest" time="7.014"/>
+  <testcase name="verifyValidUserLogInAndScreenElements" classname="com.komoot.testcases.TC002_ValidUserLoginTest" time="24.255"/>
+  <testcase name="verifyHomepageUITest" classname="com.komoot.testcases.TC003_HomepageUITest" time="29.268"/>
+  <testcase name="verifyUserProfileVerification" classname="com.komoot.testcases.TC004_UserProfileVerificationTest" time="27.345"/>
+  <testcase name="verifySearchTourTest" classname="com.komoot.testcases.TC005_SeacrhTourAndLogoutTest" time="51.515"/>
 </testsuite>

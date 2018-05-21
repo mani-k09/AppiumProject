@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Smoke_Test_Suite">
-              <span class="suite-name border-failed">Smoke Test Suite</span>
+              <span class="suite-name border-passed">Smoke Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Smoke_Test_Suite">
-                    <span>C:\Users\KailasamM\VodafoneMTS\KomootSmokeTest\testNG.xml</span>
+                    <span>C:\Users\KailasamM\VodafoneMTS\mygit\AppiumProject\testNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Smoke_Test_Suite" class="hide-methods failed suite-Smoke_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Smoke_Test_Suite -->
-                      <a href="#" panel-name="suite-Smoke_Test_Suite" class="show-methods failed suite-Smoke_Test_Suite"> (show)</a> <!-- show-methods failed suite-Smoke_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Smoke_Test_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Test_Suite" title="com.komoot.testcases.TC005_SeacrhTourAndLogoutTest" hash-for-method="verifySearchTourTest">verifySearchTourTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Smoke_Test_Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,6 +103,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Smoke_Test_Suite" title="com.komoot.testcases.TC003_HomepageUITest" hash-for-method="verifyHomepageUITest">verifyHomepageUITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Smoke_Test_Suite" title="com.komoot.testcases.TC005_SeacrhTourAndLogoutTest" hash-for-method="verifySearchTourTest">verifySearchTourTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -146,26 +137,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Smoke_Test_Suite" class="panel Smoke_Test_Suite">
-          <div class="suite-Smoke_Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.komoot.testcases.TC005_SeacrhTourAndLogoutTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySearchTourTest">
-                  </a> <!-- verifySearchTourTest -->
-                  <span class="method-name">verifySearchTourTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at com.komoot.TestBase.TestBase.getTestData(TestBase.java:196)
-	at com.komoot.testcases.TC005_SeacrhTourAndLogoutTest.verifySearchTourTest(TC005_SeacrhTourAndLogoutTest.java:30)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Smoke_Test_Suite-class-failed -->
           <div class="suite-Smoke_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -192,6 +163,21 @@
                   <a name="verifylaunchpageElements">
                   </a> <!-- verifylaunchpageElements -->
                   <span class="method-name">verifylaunchpageElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Smoke_Test_Suite-class-passed -->
+          <div class="suite-Smoke_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.komoot.testcases.TC005_SeacrhTourAndLogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchTourTest">
+                  </a> <!-- verifySearchTourTest -->
+                  <span class="method-name">verifySearchTourTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -229,7 +215,7 @@
         </div> <!-- panel Smoke_Test_Suite -->
         <div panel-name="test-xml-Smoke_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\KailasamM\VodafoneMTS\KomootSmokeTest\testNG.xml</span>
+            <span class="header-content">C:\Users\KailasamM\VodafoneMTS\mygit\AppiumProject\testNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -284,30 +270,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyHomepageUITest')
-data.setCell(0, 2, 'com.komoot.testcases.TC003_HomepageUITest')
-data.setCell(0, 3, 27508);
+data.setCell(0, 1, 'verifySearchTourTest')
+data.setCell(0, 2, 'com.komoot.testcases.TC005_SeacrhTourAndLogoutTest')
+data.setCell(0, 3, 51515);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyUserProfileVerification')
-data.setCell(1, 2, 'com.komoot.testcases.TC004_UserProfileVerificationTest')
-data.setCell(1, 3, 25611);
+data.setCell(1, 1, 'verifyHomepageUITest')
+data.setCell(1, 2, 'com.komoot.testcases.TC003_HomepageUITest')
+data.setCell(1, 3, 29264);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyValidUserLogInAndScreenElements')
-data.setCell(2, 2, 'com.komoot.testcases.TC002_ValidUserLoginTest')
-data.setCell(2, 3, 19904);
+data.setCell(2, 1, 'verifyUserProfileVerification')
+data.setCell(2, 2, 'com.komoot.testcases.TC004_UserProfileVerificationTest')
+data.setCell(2, 3, 27345);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifylaunchpageElements')
-data.setCell(3, 2, 'com.komoot.testcases.TC001_WelcomePageUITest')
-data.setCell(3, 3, 8190);
+data.setCell(3, 1, 'verifyValidUserLogInAndScreenElements')
+data.setCell(3, 2, 'com.komoot.testcases.TC002_ValidUserLoginTest')
+data.setCell(3, 3, 24262);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifySearchTourTest')
-data.setCell(4, 2, 'com.komoot.testcases.TC005_SeacrhTourAndLogoutTest')
-data.setCell(4, 3, 3232);
+data.setCell(4, 1, 'verifylaunchpageElements')
+data.setCell(4, 2, 'com.komoot.testcases.TC001_WelcomePageUITest')
+data.setCell(4, 3, 7014);
 window.suiteTableData['Smoke_Test_Suite']= { tableData: data, tableDiv: 'times-div-Smoke_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Smoke_Test_Suite">
               </div> <!-- times-div-Smoke_Test_Suite -->
             </div> <!-- times-div -->
@@ -340,113 +326,111 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">initClient_ExtentReport(public void com.komoot.testcases.TC001_WelcomePageUITest.verifylaunchpageElements())</span>
-                <span class="method-start">17137 ms</span>
+                <span class="method-start">18044 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifylaunchpageElements</span>
-                <span class="method-start">17149 ms</span>
+                <span class="method-start">18046 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown_ExtentReport([TestResult name=verifylaunchpageElements status=SUCCESS method=TC001_WelcomePageUITest.verifylaunch...)</span>
-                <span class="method-start">25343 ms</span>
+                <span class="method-start">25064 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">postTestRun</span>
-                <span class="method-start">28770 ms</span>
+                <span class="method-start">28302 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.komoot.testcases.TC002_ValidUserLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass_ExtentReport</span>
-                <span class="method-start">28873 ms</span>
+                <span class="method-start">28405 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">initClient_ExtentReport(public void com.komoot.testcases.TC002_ValidUserLoginTest.verifyValidUserLogInAndScreenElements() th...)</span>
-                <span class="method-start">46256 ms</span>
+                <span class="method-start">44410 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyValidUserLogInAndScreenElements</span>
-                <span class="method-start">46257 ms</span>
+                <span class="method-start">44411 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown_ExtentReport([TestResult name=verifyValidUserLogInAndScreenElements status=SUCCESS method=TC002_ValidUserLoginTes...)</span>
-                <span class="method-start">66165 ms</span>
+                <span class="method-start">68673 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">postTestRun</span>
-                <span class="method-start">69062 ms</span>
+                <span class="method-start">71341 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.komoot.testcases.TC003_HomepageUITest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass_ExtentReport</span>
-                <span class="method-start">69146 ms</span>
+                <span class="method-start">71389 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">initClient_ExtentReport(public void com.komoot.testcases.TC003_HomepageUITest.verifyHomepageUITest() throws java.lang.Interr...)</span>
-                <span class="method-start">85313 ms</span>
+                <span class="method-start">87067 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHomepageUITest</span>
-                <span class="method-start">85313 ms</span>
+                <span class="method-start">87067 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown_ExtentReport([TestResult name=verifyHomepageUITest status=SUCCESS method=TC003_HomepageUITest.verifyHomepageUITes...)</span>
-                <span class="method-start">112825 ms</span>
+                <span class="method-start">116335 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">postTestRun</span>
-                <span class="method-start">115669 ms</span>
+                <span class="method-start">119147 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.komoot.testcases.TC004_UserProfileVerificationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass_ExtentReport</span>
-                <span class="method-start">115725 ms</span>
+                <span class="method-start">119205 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">initClient_ExtentReport(public void com.komoot.testcases.TC004_UserProfileVerificationTest.verifyUserProfileVerification() t...)</span>
-                <span class="method-start">131414 ms</span>
+                <span class="method-start">135820 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyUserProfileVerification</span>
-                <span class="method-start">131414 ms</span>
+                <span class="method-start">135820 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown_ExtentReport([TestResult name=verifyUserProfileVerification status=SUCCESS method=TC004_UserProfileVerificationTe...)</span>
-                <span class="method-start">157025 ms</span>
+                <span class="method-start">163165 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">postTestRun</span>
-                <span class="method-start">159862 ms</span>
+                <span class="method-start">165925 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.komoot.testcases.TC005_SeacrhTourAndLogoutTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass_ExtentReport</span>
-                <span class="method-start">159926 ms</span>
+                <span class="method-start">165977 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">initClient_ExtentReport(public void com.komoot.testcases.TC005_SeacrhTourAndLogoutTest.verifySearchTourTest() throws java.io...)</span>
-                <span class="method-start">175581 ms</span>
+                <span class="method-start">181619 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifySearchTourTest</span>
-                <span class="method-start">175581 ms</span>
+                <span class="method-start">181619 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown_ExtentReport([TestResult name=verifySearchTourTest status=FAILURE method=TC005_SeacrhTourAndLogoutTest.verifySear...)</span>
-                <span class="method-start">178837 ms</span>
+                <span class="method-name">tearDown_ExtentReport([TestResult name=verifySearchTourTest status=SUCCESS method=TC005_SeacrhTourAndLogoutTest.verifySear...)</span>
+                <span class="method-start">233134 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">postTestRun</span>
-                <span class="method-start">181736 ms</span>
+                <span class="method-start">235958 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
