@@ -164,11 +164,11 @@ public abstract class TestBase {
 				currentWorkingDirectory + "/testReport/" + getClassName() + getTimeStamp() + ".html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
-		extent.setSystemInfo("Appname", "V-Auto");
+		extent.setSystemInfo("Appname", "Komoot");
 		extent.setSystemInfo("Platform", "Android");
-		extent.setSystemInfo("AppVersion", "1.0.40");
-		htmlReporter.config().setDocumentTitle("V-Auto-Android Test");
-		htmlReporter.config().setReportName("V-Auto -Android smoke test report");
+		extent.setSystemInfo("AppVersion", "7.3.5");
+		htmlReporter.config().setDocumentTitle("Komoot-Android Test");
+		htmlReporter.config().setReportName("Komoot- Android Smoke Test Report");
 		htmlReporter.config().setTheme(Theme.STANDARD);
 		log.info("Extend Report configuration was successfull");
 	}
